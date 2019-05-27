@@ -10,3 +10,7 @@ C:\Users\Степан\Desktop\Учебная практика\Рез. копия
 C:\Users\Степан\Desktop\Учебная практика\Рез. копия БД\Practic\Practic\obj\Debug\Practic.exe
 C:\Users\Степан\Desktop\Учебная практика\Рез. копия БД\Practic\Practic\obj\Debug\Practic.pdb
 C:\Users\Степан\Desktop\Учебная практика\Рез. копия БД\Practic\Practic\obj\Debug\Practic.Form3.resources
+C:\Users\Степан\Desktop\Учебная практика\Рез. копия БД\Practic\Practic\obj\Debug\Practic.Form4.resources
+C:\Users\Степан\Desktop\Учебная практика\Рез. копия БД\Practic\Practic\obj\Debug\Practic.Form5.resources
+C:\Users\Степан\Desktop\Учебная практика\Рез. копия БД\Practic\Practic\obj\Debug\Practic.Form6.resources
+C:\Users\Степан\Desktop\Учебная практика\Рез. копия БД\Practic\Practic\obj\Debug\Practic.Form7.resources
