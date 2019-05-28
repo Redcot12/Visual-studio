@@ -49,70 +49,163 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AddTkani.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AddTkani.Designer.cs">
+      <DependentUpon>AddTkani.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Dedeshko_ZaharchenkoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dedeshko_ZaharchenkoDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dedeshko_ZaharchenkoDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EntryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="EntryForm.Designer.cs">
+      <DependentUpon>EntryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="ConstructorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="ConstructorForm.Designer.cs">
+      <DependentUpon>ConstructorForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="IzdelieForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="IzdelieForm.Designer.cs">
+      <DependentUpon>IzdelieForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="OrderListForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="OrderListForm.Designer.cs">
+      <DependentUpon>OrderListForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6.cs">
+    <Compile Include="test2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>test2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="test2DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>test2DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TkaniDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TkaniDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserOrderForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="UserOrderForm.Designer.cs">
+      <DependentUpon>UserOrderForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7.cs">
+    <Compile Include="RegForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.cs">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <Compile Include="RegForm.Designer.cs">
+      <DependentUpon>RegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GreatingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GreatingForm.Designer.cs">
+      <DependentUpon>GreatingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerForm.Designer.cs">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WareForm.Designer.cs">
+      <DependentUpon>WareForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TkaniForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TkaniForm.Designer.cs">
+      <DependentUpon>TkaniForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FurnituraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FurnituraForm.Designer.cs">
+      <DependentUpon>FurnituraForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="AddTkani.resx">
+      <DependentUpon>AddTkani.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="ConstructorForm.resx">
+      <DependentUpon>ConstructorForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="EntryForm.resx">
+      <DependentUpon>EntryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="IzdelieForm.resx">
+      <DependentUpon>IzdelieForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="OrderListForm.resx">
+      <DependentUpon>OrderListForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="UserOrderForm.resx">
+      <DependentUpon>UserOrderForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <EmbeddedResource Include="RegForm.resx">
+      <DependentUpon>RegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GreatingForm.resx">
+      <DependentUpon>GreatingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm.resx">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WareForm.resx">
+      <DependentUpon>WareForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TkaniForm.resx">
+      <DependentUpon>TkaniForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FurnituraForm.resx">
+      <DependentUpon>FurnituraForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -123,6 +216,39 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Dedeshko_ZaharchenkoDataSet.xsc">
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dedeshko_ZaharchenkoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet.xss">
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet1.xsc">
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dedeshko_ZaharchenkoDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet1.xss">
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet2.xsc">
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dedeshko_ZaharchenkoDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet2.xss">
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet2.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -132,6 +258,39 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="test2.xsc">
+      <DependentUpon>test2.xsd</DependentUpon>
+    </None>
+    <None Include="test2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>test2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="test2.xss">
+      <DependentUpon>test2.xsd</DependentUpon>
+    </None>
+    <None Include="test2DataSet2.xsc">
+      <DependentUpon>test2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="test2DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>test2DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="test2DataSet2.xss">
+      <DependentUpon>test2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TkaniDataSet3.xsc">
+      <DependentUpon>TkaniDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TkaniDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TkaniDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TkaniDataSet3.xss">
+      <DependentUpon>TkaniDataSet3.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
