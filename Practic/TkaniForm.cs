@@ -28,21 +28,23 @@ namespace App
 
         public void LoadList()
         {
-            String query = "SELECT * FROM tkani";
+
+            MessageBox.Show("123");
+            String query = "SELECT * FROM Tkani";
             sda = new SqlDataAdapter(query, connection);
             ds = new DataSet();
-            sda.Fill(ds, "tkani");
-            dataGridView1.DataSource = ds.Tables["tkani"];
-
+            sda.Fill(ds, "Tkani");
+            dataGridView1.DataSource = ds.Tables["Tkani"];
+/*
             DataGridViewImageColumn img = new DataGridViewImageColumn();
             img.Name = "img";
-            img.HeaderText = "Картинка";
+            img.HeaderText = "Изображения";
             dataGridView1.Columns.Add(img);
             for (int i = 0; i < dataGridView1.RowCount; i++)
             {
                 if (dataGridView1.Rows[i].Cells[1].Value != null)
                 {
-                    string basePath = "C:/Users/lickett2019/source/repos/App/App/images/tkani/";
+                    string basePath = @"C:\Users\Степан\Pictures\";
                     string filename = dataGridView1.Rows[i].Cells[1].Value.ToString() + ".jpg";
                     string fullPath = basePath + filename;
                     Image image;
@@ -57,19 +59,19 @@ namespace App
                     dataGridView1.Rows[i].Cells["img"].Value = image;
                 }
             }
+            */
         }
 
         private void TkaniForm_Load(object sender, EventArgs e)
         {
 
-            LoadList();
+          
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
             Close();
-            ware = new WareForm();
-            ware.Show();
+            
         }
 
         private void button3_Click_1(object sender, EventArgs e)
@@ -79,7 +81,7 @@ namespace App
             {
                 SqlCommandBuilder builder = new SqlCommandBuilder(sda);
                 builder.GetInsertCommand();
-                int updatesRows = sda.Update(changes, "tkani");
+                int updatesRows = sda.Update(changes, "Tkani");
                 ds.AcceptChanges();
             }
             LoadList();
@@ -95,16 +97,15 @@ namespace App
             {
                 dataGridView1.Rows.RemoveAt(items.Index);
             }
-            button3_Click_1(sender, e);
+           button3_Click_1(sender, e);
         }
 
         private void TkaniForm_Load_1(object sender, EventArgs e)
         {
             // TODO: данная строка кода позволяет загрузить данные в таблицу "tkaniDataSet3.Tkani". При необходимости она может быть перемещена или удалена.
-            this.tkaniTableAdapter.Fill(this.tkaniDataSet3.Tkani);
+            // this.tkaniTableAdapter.Fill(this.tkaniDataSet3.Tkani);
+            LoadList();
 
         }
-
-       
     }
 }

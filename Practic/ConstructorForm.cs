@@ -201,7 +201,7 @@ namespace App
         private void ConstructorForm_Load_1(object sender, EventArgs e)
         {
             // TODO: данная строка кода позволяет загрузить данные в таблицу "test2DataSet2.Tkani". При необходимости она может быть перемещена или удалена.
-            this.tkaniTableAdapter.Fill(this.test2DataSet2.Tkani);
+            //this.tkaniTableAdapter.Fill(this.test2DataSet2.Tkani);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "test2.Furniture". При необходимости она может быть перемещена или удалена.
             this.furnitureTableAdapter.Fill(this.test2.Furniture);
          ;

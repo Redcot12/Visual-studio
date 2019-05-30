@@ -186,7 +186,7 @@
             this.dataGridView1.DataSource = this.tkaniBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(301, 52);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(733, 403);
+            this.dataGridView1.Size = new System.Drawing.Size(541, 284);
             this.dataGridView1.TabIndex = 12;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -294,7 +294,7 @@
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(788, 334);
+            this.panel1.Location = new System.Drawing.Point(596, 346);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(246, 121);
             this.panel1.TabIndex = 16;

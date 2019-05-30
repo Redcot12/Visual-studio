@@ -31,18 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TkaniForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.idtkaniDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.артикулDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.названиеDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.цветDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.рисунокDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.составDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ширинаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.длинаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ценаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.изображениеDataGridViewImageColumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.tkaniBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tkaniDataSet3 = new Practic.TkaniDataSet3();
+            this.tkaniDataSet3 = new Practic.tkaniDataSet3();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -59,7 +49,7 @@
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.tkaniTableAdapter = new Practic.TkaniDataSet3TableAdapters.TkaniTableAdapter();
+            this.tkaniTableAdapter = new Practic.tkaniDataSet3TableAdapters.TkaniTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tkaniBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tkaniDataSet3)).BeginInit();
@@ -69,85 +59,11 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idtkaniDataGridViewTextBoxColumn,
-            this.артикулDataGridViewTextBoxColumn,
-            this.названиеDataGridViewTextBoxColumn,
-            this.цветDataGridViewTextBoxColumn,
-            this.рисунокDataGridViewTextBoxColumn,
-            this.составDataGridViewTextBoxColumn,
-            this.ширинаDataGridViewTextBoxColumn,
-            this.длинаDataGridViewTextBoxColumn,
-            this.ценаDataGridViewTextBoxColumn,
-            this.изображениеDataGridViewImageColumn});
-            this.dataGridView1.DataSource = this.tkaniBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(30, 41);
+            this.dataGridView1.Location = new System.Drawing.Point(30, 67);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(743, 346);
+            this.dataGridView1.Size = new System.Drawing.Size(743, 320);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // idtkaniDataGridViewTextBoxColumn
-            // 
-            this.idtkaniDataGridViewTextBoxColumn.DataPropertyName = "Id_tkani";
-            this.idtkaniDataGridViewTextBoxColumn.HeaderText = "Id_tkani";
-            this.idtkaniDataGridViewTextBoxColumn.Name = "idtkaniDataGridViewTextBoxColumn";
-            this.idtkaniDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // артикулDataGridViewTextBoxColumn
-            // 
-            this.артикулDataGridViewTextBoxColumn.DataPropertyName = "Артикул";
-            this.артикулDataGridViewTextBoxColumn.HeaderText = "Артикул";
-            this.артикулDataGridViewTextBoxColumn.Name = "артикулDataGridViewTextBoxColumn";
-            // 
-            // названиеDataGridViewTextBoxColumn
-            // 
-            this.названиеDataGridViewTextBoxColumn.DataPropertyName = "Название";
-            this.названиеDataGridViewTextBoxColumn.HeaderText = "Название";
-            this.названиеDataGridViewTextBoxColumn.Name = "названиеDataGridViewTextBoxColumn";
-            // 
-            // цветDataGridViewTextBoxColumn
-            // 
-            this.цветDataGridViewTextBoxColumn.DataPropertyName = "Цвет";
-            this.цветDataGridViewTextBoxColumn.HeaderText = "Цвет";
-            this.цветDataGridViewTextBoxColumn.Name = "цветDataGridViewTextBoxColumn";
-            // 
-            // рисунокDataGridViewTextBoxColumn
-            // 
-            this.рисунокDataGridViewTextBoxColumn.DataPropertyName = "Рисунок";
-            this.рисунокDataGridViewTextBoxColumn.HeaderText = "Рисунок";
-            this.рисунокDataGridViewTextBoxColumn.Name = "рисунокDataGridViewTextBoxColumn";
-            // 
-            // составDataGridViewTextBoxColumn
-            // 
-            this.составDataGridViewTextBoxColumn.DataPropertyName = "Состав";
-            this.составDataGridViewTextBoxColumn.HeaderText = "Состав";
-            this.составDataGridViewTextBoxColumn.Name = "составDataGridViewTextBoxColumn";
-            // 
-            // ширинаDataGridViewTextBoxColumn
-            // 
-            this.ширинаDataGridViewTextBoxColumn.DataPropertyName = "Ширина";
-            this.ширинаDataGridViewTextBoxColumn.HeaderText = "Ширина";
-            this.ширинаDataGridViewTextBoxColumn.Name = "ширинаDataGridViewTextBoxColumn";
-            // 
-            // длинаDataGridViewTextBoxColumn
-            // 
-            this.длинаDataGridViewTextBoxColumn.DataPropertyName = "Длина";
-            this.длинаDataGridViewTextBoxColumn.HeaderText = "Длина";
-            this.длинаDataGridViewTextBoxColumn.Name = "длинаDataGridViewTextBoxColumn";
-            // 
-            // ценаDataGridViewTextBoxColumn
-            // 
-            this.ценаDataGridViewTextBoxColumn.DataPropertyName = "Цена";
-            this.ценаDataGridViewTextBoxColumn.HeaderText = "Цена";
-            this.ценаDataGridViewTextBoxColumn.Name = "ценаDataGridViewTextBoxColumn";
-            // 
-            // изображениеDataGridViewImageColumn
-            // 
-            this.изображениеDataGridViewImageColumn.DataPropertyName = "Изображение";
-            this.изображениеDataGridViewImageColumn.HeaderText = "Изображение";
-            this.изображениеDataGridViewImageColumn.Name = "изображениеDataGridViewImageColumn";
             // 
             // tkaniBindingSource
             // 
@@ -156,7 +72,7 @@
             // 
             // tkaniDataSet3
             // 
-            this.tkaniDataSet3.DataSetName = "TkaniDataSet3";
+            this.tkaniDataSet3.DataSetName = "tkaniDataSet3";
             this.tkaniDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // button1
@@ -192,7 +108,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(348, 15);
+            this.label1.Location = new System.Drawing.Point(347, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 13);
             this.label1.TabIndex = 4;
@@ -328,7 +244,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "TkaniForm";
             this.Text = "TkaniForm";
-            //this.Load += new System.EventHandler(this.TkaniForm_Load_1);
+            this.Load += new System.EventHandler(this.TkaniForm_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tkaniBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tkaniDataSet3)).EndInit();
@@ -359,18 +275,8 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private Practic.TkaniDataSet3 tkaniDataSet3;
+        private Practic.tkaniDataSet3 tkaniDataSet3;
         private System.Windows.Forms.BindingSource tkaniBindingSource;
-        private Practic.TkaniDataSet3TableAdapters.TkaniTableAdapter tkaniTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idtkaniDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn артикулDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn названиеDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn цветDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn рисунокDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn составDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ширинаDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn длинаDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ценаDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewImageColumn изображениеDataGridViewImageColumn;
+        private Practic.tkaniDataSet3TableAdapters.TkaniTableAdapter tkaniTableAdapter;
     }
 }

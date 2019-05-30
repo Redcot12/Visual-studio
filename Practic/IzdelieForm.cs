@@ -23,5 +23,6 @@ namespace Practic
             this.izdeliaTableAdapter.Fill(this.dedeshko_ZaharchenkoDataSet2.Izdelia);
 
         }
+
     }
 }

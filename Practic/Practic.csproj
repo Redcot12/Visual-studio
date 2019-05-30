@@ -109,6 +109,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TkaniDataSet3.xsd</DependentUpon>
     </Compile>
+    <Compile Include="tkaniDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tkaniDataSet31.xsd</DependentUpon>
+    </Compile>
     <Compile Include="UserOrderForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -290,6 +295,17 @@
     </None>
     <None Include="TkaniDataSet3.xss">
       <DependentUpon>TkaniDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="tkaniDataSet31.xsc">
+      <DependentUpon>tkaniDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="tkaniDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tkaniDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tkaniDataSet31.xss">
+      <DependentUpon>tkaniDataSet31.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

@@ -23,22 +23,7 @@ namespace Practic
             this.user = u;
         }
 
-        private void Form6_Load(object sender, EventArgs e)
-        {
-            String sql = "select * from Izdelia";
-            SqlDataAdapter sda = new SqlDataAdapter(sql, con);
-            DataSet ds = new DataSet();
-            sda.Fill(ds, "Izdelia");
-            dataGridView1.DataSource = ds.Tables["Izdelia"];
-
-
-            DataGridViewImageColumn img = new DataGridViewImageColumn();
-            Image image = Image.FromFile(@"C:\Users\Степан\Pictures\15030780.jpg");
-            img.Image = image;
-            dataGridView1.Columns.Add(img);
-            img.HeaderText = "Image";
-            img.Name = "img";
-        }
+        
 
         private void заказToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -68,6 +53,12 @@ namespace Practic
         {
             FurnituraForm f = new FurnituraForm();
             f.Show();
+        }
+
+        private void изделияToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IzdelieForm Iz = new IzdelieForm();
+            Iz.Show();
         }
     }
 }
