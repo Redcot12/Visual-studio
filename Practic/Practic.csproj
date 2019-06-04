@@ -70,6 +70,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Dedeshko_ZaharchenkoDataSet2.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Dedeshko_ZaharchenkoDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dedeshko_ZaharchenkoDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet4.xsd</DependentUpon>
+    </Compile>
     <Compile Include="EntryForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,11 +92,21 @@
     <Compile Include="ConstructorForm.Designer.cs">
       <DependentUpon>ConstructorForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="IzdeliaList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IzdeliaList.xsd</DependentUpon>
+    </Compile>
     <Compile Include="IzdelieForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="IzdelieForm.Designer.cs">
       <DependentUpon>IzdelieForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IzlekizBox.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IzlekizBox.xsd</DependentUpon>
     </Compile>
     <Compile Include="OrderListForm.cs">
       <SubType>Form</SubType>
@@ -149,6 +169,12 @@
     </Compile>
     <Compile Include="UserForm.Designer.cs">
       <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserOrderForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserOrderForm2.Designer.cs">
+      <DependentUpon>UserOrderForm2.cs</DependentUpon>
     </Compile>
     <Compile Include="WareForm.cs">
       <SubType>Form</SubType>
@@ -253,6 +279,50 @@
     </None>
     <None Include="Dedeshko_ZaharchenkoDataSet2.xss">
       <DependentUpon>Dedeshko_ZaharchenkoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet3.xsc">
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dedeshko_ZaharchenkoDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet3.xss">
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet4.xsc">
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dedeshko_ZaharchenkoDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Dedeshko_ZaharchenkoDataSet4.xss">
+      <DependentUpon>Dedeshko_ZaharchenkoDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="IzdeliaList.xsc">
+      <DependentUpon>IzdeliaList.xsd</DependentUpon>
+    </None>
+    <None Include="IzdeliaList.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IzdeliaList.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IzdeliaList.xss">
+      <DependentUpon>IzdeliaList.xsd</DependentUpon>
+    </None>
+    <None Include="IzlekizBox.xsc">
+      <DependentUpon>IzlekizBox.xsd</DependentUpon>
+    </None>
+    <None Include="IzlekizBox.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IzlekizBox.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IzlekizBox.xss">
+      <DependentUpon>IzlekizBox.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -87,20 +87,20 @@ namespace App
                 con.Open();
                 Random random = new Random();
                 String artikul = "User-" + random.Next(1000000);
-                SqlCommand command = new SqlCommand("INSERT INTO izdelie (Наименование, Длина, Ширина) " +
+                SqlCommand command = new SqlCommand("INSERT INTO izdelia (Наименование, Длина, Ширина) " +
                     "VALUES (@name,@width,@height); SELECT SCOPE_IDENTITY(); ", con);
                 command.Parameters.AddWithValue("@name", textBox1.Text);
                 command.Parameters.AddWithValue("@width", textBox2.Text);
                 command.Parameters.AddWithValue("@height", textBox3.Text);
 
-                int izdelie = Convert.ToInt32(command.ExecuteScalar());
+                int izdelia = Convert.ToInt32(command.ExecuteScalar());
 
-                SqlCommand command1 = new SqlCommand("INSERT INTO furniture_izdelie (furniture_id, izdelie_id, razmeshenie, width, length, turn, counter) " +
-                   "VALUES (" + selected_furniture + "," + izdelie + ", 0, 0, 0, 0, 0);", con);
+                SqlCommand command1 = new SqlCommand("INSERT INTO Furniture_izdelia (ID_фурнитуры, ID_изделия, Размещение, Ширина, Длина, Поворот, Количество) " +
+                   "VALUES (" + selected_furniture + "," + izdelia + ", 0, 0, 0, 0, 0);", con);
                 command1.ExecuteScalar();
 
-                SqlCommand command2 = new SqlCommand("INSERT INTO tkani_izdelie (tkani_id, izdelie_id) " +
-                  "VALUES (" + selected_tkani + "," + izdelie + ");", con);
+                SqlCommand command2 = new SqlCommand("INSERT INTO tkani_izdelia (ID_ткани, ID_изделия) " +
+                  "VALUES (" + selected_tkani + "," + izdelia + ");", con);
                 command2.ExecuteScalar();
 
                 MessageBox.Show("Изделие успешно добавлено");

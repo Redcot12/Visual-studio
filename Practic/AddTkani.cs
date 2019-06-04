@@ -21,10 +21,10 @@ namespace App
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             openFileDialog1.Filter = "JPEG images|*.jpg";
-            openFileDialog1.InitialDirectory = @"C:\Users\Степан\Pictures";
+            openFileDialog1.InitialDirectory = @"C:\Users\Степан\Pictures\";
             openFileDialog1.Title = "Выбрать картинку";
             if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
@@ -33,7 +33,12 @@ namespace App
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
         {
             connection.Open();
             try
@@ -49,12 +54,6 @@ namespace App
                 MessageBox.Show("Ошибка при добавлении ткани!\n");
 
             }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Close();
-
         }
     }
 }

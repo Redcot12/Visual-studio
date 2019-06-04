@@ -60,6 +60,7 @@
             this.furnitureTableAdapter = new Practic.test2TableAdapters.FurnitureTableAdapter();
             this.tkaniTableAdapter = new Practic.test2DataSet2TableAdapters.TkaniTableAdapter();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.tkaniBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tkaniBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.test2DataSet2BindingSource)).BeginInit();
@@ -68,6 +69,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.test2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.test2BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.furnitureBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tkaniBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -299,6 +301,11 @@
             this.panel1.Size = new System.Drawing.Size(246, 121);
             this.panel1.TabIndex = 16;
             // 
+            // tkaniBindingSource1
+            // 
+            this.tkaniBindingSource1.DataMember = "Tkani";
+            this.tkaniBindingSource1.DataSource = this.test2DataSet2BindingSource;
+            // 
             // ConstructorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -332,6 +339,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.test2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.test2BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.furnitureBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tkaniBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -370,5 +378,6 @@
         private System.Windows.Forms.BindingSource tkaniBindingSource;
         private Practic.test2DataSet2TableAdapters.TkaniTableAdapter tkaniTableAdapter;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.BindingSource tkaniBindingSource1;
     }
 }
